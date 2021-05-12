@@ -165,3 +165,22 @@ Decreases your current goal by `<number>`. Resets your goal pinged status.
 Resets your catch stats seen in the `)goal view` display.
 
 ## Clan/Server
+`phserver` :  
+aliases: `server`, `phs`  
+**options**  
+- whitelist
+- blacklist
+- prefix
+- golden channel
+- golden role
+- market channel
+- market role
+- waterstate channel
+- verify channel
+- rare channel
+- `rare simple` :  
+options: `On` or `Off`
+If `On` PokeHelper will display the simple version of rare spawns.  
+![Image of Simple Rare Spawn](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Server/Simple_rare_spawn.PNG?raw=true)  
+If `Off` PokeHelper will display the full version of rare spawns.  
+![Image of Full Rare Spawn](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Server/Full_rare_spawn.PNG?raw=true)
