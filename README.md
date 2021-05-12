@@ -8,6 +8,13 @@ https://github.com/Astelan5/PokeHelper-Public/issues
 
 # PokeHelper Features:
 
+## Fishing
+PokeHelper displays the rarity of pokemon when fishing.  
+![Image of Fishing Message No Embed](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/General/fishing_no_embed.PNG?raw=true)  
+
+`)toggle embeds fish On`:  
+![Image of Fishing Message Embed](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/General/fishing_embed.PNG?raw=true)  
+
 ## General
 - `donate` :  
 Provides a link to donate to the creator.
@@ -127,6 +134,7 @@ toggles all individual timers `On` or `Off`.
 aliases: `tog`  
 **options:**  
 - `embeds`
+- `embeds fish`
 - `goal ping`
 - `goal ping clan`
 - `rare ping`
