@@ -166,6 +166,8 @@ Resets your catch stats seen in the `)goal view` display.
 
 ## Clan/Server
 
+### Clan
+
 `leave_clan` :  
 Prompts the user to leave their current PokeHelper clan.
 
@@ -180,6 +182,7 @@ aliases: `clan`, `phc`
 - `goal extend`
 - `goal decrease`
 
+### Server
 `phserver` :  
 aliases: `server`, `phs`  
 **options**  
