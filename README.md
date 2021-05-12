@@ -34,7 +34,7 @@ options:
 - catchbot
 - quest
 - market
-  -price
+  - price
 
 ### Timers
 
