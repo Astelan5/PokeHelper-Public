@@ -16,6 +16,8 @@ PokeHelper displays the rarity of pokemon when fishing.
   
 ![Image of Fishing Message Embed](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/General/fishing_embed.PNG?raw=true)  
 
+# Commands
+
 ## General
 - `donate` :  
 Provides a link to donate to the creator.
