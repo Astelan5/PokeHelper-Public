@@ -67,7 +67,25 @@ If `On` PokeHelper will not send the timer set message.
 - `react` :  
 Command: `)timers react`  
 options: `On` or `Off`  
-If `On` PokeHelper will react to the corresponding Pokemeow message when the timer is done instead of sending a message. Only works for Catch and Egg.
+If `On` PokeHelper will react to the corresponding Pokemeow message when the timer is done instead of sending a message. Only works for Catch and Egg.  
+
+timers: **The options for all timers is `On` or `Off`. The command for all timers is `)timers <timer-name>`**
+- `all` :  
+toggles all individual timers `On` or `Off`.  
+- `battle`
+- `box`
+- `catch`
+- `catchbot`
+- `dex`
+- `egg`
+- `fish`
+- `market`
+- `open`
+- `quest`
+- `release`
+- `shop`
+- `swap`
+- `team`
 
 ### Other Settings
 
