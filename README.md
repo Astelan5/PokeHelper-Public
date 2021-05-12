@@ -123,6 +123,20 @@ toggles all individual timers `On` or `Off`.
 - `team`
 
 ### Other Settings
+`toggle` :  
+aliases: `tog`  
+**options:**  
+- embeds
+- goal ping
+- goal ping clan
+- rare ping
+- rare ping spam
+- `rare message` :  
+options: `On` or `Off`  
+Setting this to `Off` disables the message that shows market values PokeHelper sends in your channel when you find a rare spawn.
+- `rare spawn` :  
+options: `Anonymous` or `Public`  
+If set to `Anonymous` PokeHelper will not display your name or a message jump link in the server's rare spawn channel.
 
 ## Goals
 
