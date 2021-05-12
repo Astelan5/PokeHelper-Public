@@ -168,18 +168,38 @@ Resets your catch stats seen in the `)goal view` display.
 `phserver` :  
 aliases: `server`, `phs`  
 **options**  
-- whitelist
-- blacklist
-- prefix
-- golden channel
-- golden role
-- market channel
-- market role
-- waterstate channel
+- `whitelist` :  
+argument: `@role`  
+Allows the mentioned role to activate any admin only PokeHelper commands such as those under `)phserver`  
+- `blacklist` :  
+argument: `@role`  
+Stops the role from being able to activate any admin only PokeHelper commands such as those under `)phserver` 
+- `prefix` :  
+argument: `<anything>`
+Changes the prefix for PokeHelper on your server to the provided text (no spaces).
+- `golden channel` :  
+argument : `#channel`  
+Sets the mentioned channel up for golden hour pings. By default PokeHelper will ping the role `@Golden` unless changed with `)phs golden role`.  
+![Image of golden ping](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Server/golden_ping.PNG?raw=true)  
+- `golden role` :  
+argument: `@role`  
+Sets the mentioned role as the one to be pinged for golden hours in the golden channel.  
+- `market channel` :  
+arguments: `#channel` `[rarity]`  
+PokeHelper will post market updates for the rarity specified to this channel. **Input <rarity> as all to apply this for all rarities. Input <channel> as disable to turn this off.**  
+![Image of market update](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Server/pokehelper_market_update.PNG?raw=true)  
+- `market role` :  
+arguments: `@role` `[rarity]`  
+PokeHelper will ping market updates for the rarity specified to this role.  
+- `waterstate channel` :  
+argument : `#channel`  
+PokeHelper will post waterstate updates in this channel when it detects the waterstate has changed.  
+**Input <channel> as disable to turn this off.**  
+![Image of Waterstate update](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Server/waterstate_update.PNG?raw=true)
 - verify channel
 - rare channel
 - `rare simple` :  
-options: `On` or `Off`
+options: `On` or `Off`  
 If `On` PokeHelper will display the simple version of rare spawns.  
 ![Image of Simple Rare Spawn](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Server/Simple_rare_spawn.PNG?raw=true)  
 If `Off` PokeHelper will display the full version of rare spawns.  
