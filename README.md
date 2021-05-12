@@ -60,9 +60,14 @@ options:
 Command: `)timers ping`  
 options: `On` or `Off`  
 If `On` PokeHelper will mention the user in the timer complete message.
-- quietmode
-- react
-
+- `quietmode` :  
+Command: `)timers quietmode` aliases: `qm`  
+options: `On` or `Off`  
+If `On` PokeHelper will not send the timer set message.
+- `react` :  
+Command: `)timers react`  
+options: `On` or `Off`  
+If `On` PokeHelper will react to the corresponding Pokemeow message when the timer is done instead of sending a message. Only works for Catch and Egg.
 
 ### Other Settings
 
