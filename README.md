@@ -23,7 +23,7 @@ If you would like alerts for your catchbot or quest run `)alert cb on` and `)ale
 To setup market alerts run `)alerts market <pokemon-name/dex-number>`. To set a price threshold run `)alerts market price <price>`.  
 To setup remaining ball alerts run `)alerts ball on`. To set a ball threshold run `)alerts ball th <number>`.  
 ## General
-See `)help` for all available commands and `help <command>` for more information about a specific command.  
+See `)help` for all available commands and `)help <command>` for more information about a specific command.  
   
 **Use the command `)init user` to see this message in discord.**
 
