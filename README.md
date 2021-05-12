@@ -33,8 +33,8 @@ options:
   Alerts users when they use their last ball of any type through a mention message. Sends the alert again each time they catch something until they purchase more. (only for catching not fishing at the moment) Activate using `)alert ball`. Takes the argument `On` or `Off`.  
   - `threshold` :  
   Sets a threshold other than the default `0` to trigger the alerts on. This applies to every type of ball. Activate using `)alert ball threshold`. Takes a numerical argument.  
-  ![Image of ball alert]
-  (Astelan5.github.com/PokeHelper-Public/Pictures/Alerts/ball_alert.PNG)
+  [Image of ball alert]
+  (https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Alerts/ball_alert.PNG?raw=true)
 - `catchbot` :  
   Alerts the user in when their catchbot has returned and is ready to collect through a mention message. Activate using `)alert catchbot`. Takes the argument `On` or `Off`.
 - `quest` :  
