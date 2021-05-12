@@ -54,8 +54,8 @@ aliases: `ti`, `timer`
 options:  
 - `off/on` :  
   Command: `)timers on` or `)timers off`  
-  option: `On` or `Off`  
-  Toggles the timer functionality on or off.
+  options: `On` or `Off`  
+  Toggles the timer functionality on or off.  
 - `ping` :  
 Command: `)timers ping`  
 options: `On` or `Off`  
