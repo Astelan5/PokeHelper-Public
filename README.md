@@ -24,6 +24,17 @@ https://github.com/Astelan5/PokeHelper-Public/issues
 ## Settings
 - initialize
 ### Alerts
+Use `)alerts` to activate this command.
+
+aliases `alert`
+
+options:
+- ball
+  - threshold
+- catchbot
+- quest
+- market
+  -price
 
 ### Timers
 
