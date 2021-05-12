@@ -139,5 +139,29 @@ options: `Anonymous` or `Public`
 If set to `Anonymous` PokeHelper will not display your name or a message jump link in the server's rare spawn channel.
 
 ## Goals
+`phgoal` :  
+aliases: `goal`, `phg`  
+**options**  
+- set :  
+Usage: `)phg set`  
+argument: `<number>`  
+Sets your personal catch goal to `<number>`. Does not reset your goal pinged status.
+- view: 
+Displays your progress towards your goal and your catch/encounter stats.
+![Image of Goal View](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Goals/goal_view.PNG?raw=true)
+- view clan:  
+Displays your progress towards your clan's goal.
+- reset:  
+Resets your tracked catches. **Does not effect stats**
+- extend:  
+Usage: `)phg extend`  
+argument: `<number>`  
+Increases your current goal by `<number>`. Resets your goal pinged status.
+- decrease:  
+Usage: `)phg decrease`  
+argument: `<number>`  
+Decreases your current goal by `<number>`. Resets your goal pinged status.
+- reset stats:  
+Resets your catch stats seen in the `)goal view` display.
 
 ## Clan/Server
