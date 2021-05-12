@@ -28,7 +28,7 @@ Use `)alerts` to activate this command. This command requires one of the options
 
 aliases `alert`
 
-__options:__
+__options:__  
 - `ball` :  
   Alerts users when they use their last ball of any type through a mention message. Sends the alert again each time they catch something until they purchase more. (only for catching not fishing at the moment) Activate using `)alert ball`. Takes the argument `On` or `Off`.  
   - `threshold` :  
