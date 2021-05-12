@@ -47,7 +47,21 @@ options:
 ![Image of market alert](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Alerts/market_alert.PNG?raw=true)
 
 ### Timers
+Command: `)timers`
 
+aliases: `ti`, `timer`
+
+options:  
+- `off/on` :  
+  Command: `)timers on` or `)timers off`  
+  option: `On` or `Off`  
+  Toggles the timer functionality on or off.
+- `ping` :  
+Command: `)timers ping`  
+options: `On` or `Off`  
+If `On` PokeHelper will mention the user in the timer complete message.
+- quietmode
+- react
 
 
 ### Other Settings
