@@ -24,7 +24,7 @@ https://github.com/Astelan5/PokeHelper-Public/issues
 ## Settings
 - initialize
 ### Alerts
-Use `)alerts` to activate this command.
+Use `)alerts` to activate this command. This command requires one of the options to be used.
 
 aliases `alert`
 
