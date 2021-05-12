@@ -28,7 +28,7 @@ Use `)alerts` to activate this command. This command requires one of the options
 
 aliases `alert`
 
-options:
+__options:__
 - `ball` :  
   Alerts users when they use their last ball of any type through a mention message. Sends the alert again each time they catch something until they purchase more. (only for catching not fishing at the moment) Activate using `)alert ball`. Takes the argument `On` or `Off`.  
   - `threshold` :  
@@ -69,7 +69,8 @@ Command: `)timers react`
 options: `On` or `Off`  
 If `On` PokeHelper will react to the corresponding Pokemeow message when the timer is done instead of sending a message. Only works for Catch and Egg.  
 
-timers: **The options for all timers is `On` or `Off`. The command for all timers is `)timers <timer-name>`**
+__timers:__  
+**The options for all timers is `On` or `Off`. The command for all timers is `)timers <timer-name>`**
 - `all` :  
 toggles all individual timers `On` or `Off`.  
 - `battle`
