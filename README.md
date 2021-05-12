@@ -147,7 +147,7 @@ Usage: `)phg set`
 argument: `<number>`  
 Sets your personal catch goal to `<number>`. Does not reset your goal pinged status.
 - `view` : 
-Displays your progress towards your goal and your catch/encounter stats.
+Displays your progress towards your goal and your catch/encounter stats.  
 ![Image of Goal View](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Goals/goal_view.PNG?raw=true)
 - `view clan` :  
 Displays your progress towards your clan's goal.
