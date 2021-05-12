@@ -9,16 +9,42 @@ https://github.com/Astelan5/PokeHelper-Public/issues
 # PokeHelper Features:
 
 ## General
-- donate
-- flute
-- invite
-- search
-- settings
-  - user
-  - timers
-  - alerts
-  - clan
-- swaptracker
+- `donate` :  
+Provides a link to donate to the creator.
+- `flute` :  
+displays the last seen flute message with a calculated countdown till golden hour.
+![Image of flute command](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/flute_command.PNG?raw=true)
+- `invite` :  
+Provides a link to invite PokeHelper to a new server.
+- `search` :  
+Allows you to search for a pokemon in the PokeHelper database by `name` or `dex number`.
+- `settings` :  
+aliases: `set`, `setting`  
+Displays settings based on the argument provided.
+  - `user` :  
+  Command: `)settings user`  
+  aliases: `u`  
+  Displays your current user settings.
+  - `timers`  
+  Command: `)settings timers`  
+  aliases: `ti`, `timer`  
+  Displays your current timer settings.
+  - `alerts` :  
+  Command: `)settings alerts`  
+  aliases: `alert`  
+  Displays your current alert settings.
+  - `clan` :  
+  Command: `)settings clan`  
+  aliases: `c`  
+  Displays your current clan/server settings.
+- `swaptracker` :  
+usage: `)swaptracker <session-label> <number-of-swap-to-track>`  
+optional arguments: `<current-swap-multiplier>` `<swaps-today>`
+Running this command begins a swap tracking session which will have the label `<session-label>` and last for `<number-of-swap-to-track>` swaps.  
+  
+if you provide the two optional arguments after the two required ones PokeHelper will calculate and display your current swap multiplier as you swap. Alternatively if you open the `;swap` page PokeHelper will automatically grab the two optional arguments and you will not need to enter them.  
+  
+The two optional arguments must be used together. `<current-multiplier>` is your current multiplier from the `;swap` screen in `%` form. (if your Multiplier says `1.00x` enter `0`, if it says `+1%` enter `1`). `<swaps-today>` is the number in the Your swaps today row in the `;swap`
 - waterstate
 
 ## Settings
