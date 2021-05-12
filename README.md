@@ -165,6 +165,21 @@ Decreases your current goal by `<number>`. Resets your goal pinged status.
 Resets your catch stats seen in the `)goal view` display.
 
 ## Clan/Server
+
+`leave_clan` :  
+Prompts the user to leave their current PokeHelper clan.
+
+`phclan` :  
+aliases: `clan`, `phc`  
+**options**  
+- `add`
+- `kick`
+- `goal set`
+- `goal view`
+- `goal reset`
+- `goal extend`
+- `goal decrease`
+
 `phserver` :  
 aliases: `server`, `phs`  
 **options**  
