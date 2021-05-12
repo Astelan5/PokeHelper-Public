@@ -126,11 +126,11 @@ toggles all individual timers `On` or `Off`.
 `toggle` :  
 aliases: `tog`  
 **options:**  
-- embeds
-- goal ping
-- goal ping clan
-- rare ping
-- rare ping spam
+- `embeds`
+- `goal ping`
+- `goal ping clan`
+- `rare ping`
+- `are ping spam`
 - `rare message` :  
 options: `On` or `Off`  
 Setting this to `Off` disables the message that shows market values PokeHelper sends in your channel when you find a rare spawn.
@@ -142,26 +142,26 @@ If set to `Anonymous` PokeHelper will not display your name or a message jump li
 `phgoal` :  
 aliases: `goal`, `phg`  
 **options**  
-- set :  
+- `set` :  
 Usage: `)phg set`  
 argument: `<number>`  
 Sets your personal catch goal to `<number>`. Does not reset your goal pinged status.
-- view: 
+- `view` : 
 Displays your progress towards your goal and your catch/encounter stats.
 ![Image of Goal View](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Goals/goal_view.PNG?raw=true)
-- view clan:  
+- `view clan` :  
 Displays your progress towards your clan's goal.
-- reset:  
+- `reset` :  
 Resets your tracked catches. **Does not effect stats**
-- extend:  
+- `extend` :  
 Usage: `)phg extend`  
 argument: `<number>`  
 Increases your current goal by `<number>`. Resets your goal pinged status.
-- decrease:  
+- `decrease` :  
 Usage: `)phg decrease`  
 argument: `<number>`  
 Decreases your current goal by `<number>`. Resets your goal pinged status.
-- reset stats:  
+- `reset stats` :  
 Resets your catch stats seen in the `)goal view` display.
 
 ## Clan/Server
