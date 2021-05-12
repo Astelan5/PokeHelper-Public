@@ -6,6 +6,25 @@ This repository is meant for the tracking of issues and suggestions for PokeHelp
 Please see the issues section to log new issues:
 https://github.com/Astelan5/PokeHelper-Public/issues
 
+# Quickstart
+
+## Timers
+To quickly enable all timers run `)timers on` and `)timers all on`. To remove the timer set messages run `)timers qm on`. To enable pings on timer completion run `)timers ping on`.  
+
+To see your current timer settings run `)setting timers`.  
+
+See `)help timers` for more information about configuring your timers.  
+## Goals
+To get started with goals run `)goal set <number>` and PokeHelper will begin tracking your progress. See `)help goal` for more goal options.
+## Alerts
+If you would like alerts for your catchbot or quest run `)alert cb on` and `)alert quest on` respectively.  
+To setup market alerts run `)alerts market <pokemon-name/dex-number>`. To set a price threshold run `)alerts market price <price>`.  
+To setup remaining ball alerts run `)alerts ball on`. To set a ball threshold run `)alerts ball th <number>`.  
+## General
+See `)help` for all available commands and `help <command>` for more information about a specific command.  
+  
+**Use the command `)init user` to see this message in discord.**
+
 # PokeHelper Features:
 
 ## Fishing
