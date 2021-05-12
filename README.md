@@ -157,7 +157,11 @@ toggles all individual timers `On` or `Off`.
 `toggle` :  
 aliases: `tog`  
 **options:**  
-- `embeds`
+- `embeds` :  
+With embeds `On`:  
+![Image of Embeds On](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/General/Rare%20Spawns/Rare_message_simple_embed.PNG?raw=true)  
+With embeds `Off`:  
+![Image of Embeds Off]()
 - `embeds fish`
 - `goal ping`
 - `goal ping clan`
