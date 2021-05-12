@@ -30,7 +30,7 @@ aliases `alert`
 
 options:
 - `ball` : 
-  Alerts users when they use their last ball of any type. Sends the alert again each time they catch something until they purchase more. (only for catching not fishing at the moment) Activate using `)alert ball`. Takes the argument `On` or `Off`.
+  \nAlerts users when they use their last ball of any type. Sends the alert again each time they catch something until they purchase more. (only for catching not fishing at the moment) Activate using `)alert ball`. Takes the argument `On` or `Off`.
   - `threshold` : 
   Sets a threshold other than the default `0` to trigger the alerts on. This applies to every type of ball. Activate using `)alert ball threshold`. Takes a numerical argument.
 - catchbot
