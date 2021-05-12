@@ -13,7 +13,7 @@ https://github.com/Astelan5/PokeHelper-Public/issues
 Provides a link to donate to the creator.
 - `flute` :  
 displays the last seen flute message with a calculated countdown till golden hour.  
-![Image of flute command](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/flute_command.PNG?raw=true)
+![Image of flute command](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/flute_command.PNG?raw=true)  
 - `invite` :  
 Provides a link to invite PokeHelper to a new server.
 - `search` :  
