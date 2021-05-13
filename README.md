@@ -43,7 +43,7 @@ PokeHelper will ping you and send out information when you find a rare pokemon.
   
 `)toggle embeds Off`:  
 
-![Image of Rare Info Embed On]()  
+![Image of Rare Info Embed On](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/General/Rare%20Spawns/Rare_message_embed_new_format.PNG?raw=true)  
 # Commands
 
 ## General
