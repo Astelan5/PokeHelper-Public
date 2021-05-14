@@ -159,6 +159,7 @@ toggles all individual timers `On` or `Off`.
 - `shop`
 - `swap`
 - `team`
+- `trade`
 
 ### Other Settings
 `toggle` :  
