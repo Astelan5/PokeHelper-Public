@@ -56,8 +56,8 @@ displays the last seen flute message with a calculated countdown till golden hou
 Provides a link to invite PokeHelper to a new server.
 - `search` :  
 Allows you to search for a pokemon in the PokeHelper database by `name` or `dex number`.
-- `settings` :  
-aliases: `set`, `setting`  
+- `display` :  
+aliases: `set`, `setting`, `settings`, `disp`  
 Displays settings based on the argument provided.
   - `user` :  
   Command: `)settings user`  
@@ -183,8 +183,8 @@ options: `Anonymous` or `Public`
 If set to `Anonymous` PokeHelper will not display your name or a message jump link in the server's rare spawn channel.
 
 ## Goals
-`phgoal` :  
-aliases: `goal`, `phg`  
+`goal` :  
+aliases: `phgoal`, `phg`  
 **options**  
 - `set` :  
 Usage: `)phg set`  
@@ -215,8 +215,8 @@ Resets your catch stats seen in the `)goal view` display.
 `leave_clan` :  
 Prompts the user to leave their current PokeHelper clan.
 
-`phclan` :  
-aliases: `clan`, `phc`  
+`clan` :  
+aliases: `phclan`, `phc`  
 **options**  
 - `add`
 - `kick`
@@ -227,8 +227,8 @@ aliases: `clan`, `phc`
 - `goal decrease`
 
 ### Server
-`phserver` :  
-aliases: `server`, `phs`  
+`server` :  
+aliases: `phserver`, `phs`  
 **options**  
 - `whitelist` :  
 argument: `@role`  
