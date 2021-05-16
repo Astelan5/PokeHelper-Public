@@ -54,9 +54,9 @@ PokeHelper will ping you and send out information when you find a rare pokemon.
 
 ![Image of Server Rare Spawn](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Server/Simple_rare_spawn.PNG?raw=true)
 
-### Waterstate
+### Waterstate updates and Golden Hour Pings
 
-![Image of waterstate update](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Server/waterstate_update.PNG?raw=true)
+![Image of waterstate update](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Server/waterstate_countdown_golden_ping.PNG?raw=true)
 
 ### Market Updates
 
