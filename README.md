@@ -33,15 +33,8 @@ See `)help` for all available commands and `)help <command>` for more informatio
 PokeHelper displays the rarity of pokemon when fishing.  
 ![Image of Fishing Message No Embed](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/General/fishing_no_embed.PNG?raw=true)  
 
-`)toggle embeds fish On`:  
-  
-![Image of Fishing Message Embed](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/General/fishing_embed.PNG?raw=true)  
-
 ## Rare Spawn Notifications:  
 PokeHelper will ping you and send out information when you find a rare pokemon.  
-![Image of Rare Info Embed Off](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/General/Rare%20Spawns/Rare_message_no_embed_new_format.PNG?raw=true)  
-  
-`)toggle embeds On`:  
 
 ![Image of Rare Info Embed On](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/General/Rare%20Spawns/Rare_message_embed_new_format.PNG?raw=true)  
 
