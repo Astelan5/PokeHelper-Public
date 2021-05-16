@@ -33,17 +33,35 @@ See `)help` for all available commands and `)help <command>` for more informatio
 PokeHelper displays the rarity of pokemon when fishing.  
 ![Image of Fishing Message No Embed](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/General/fishing_no_embed.PNG?raw=true)  
 
-`)toggle embeds fish On`:  
-  
-![Image of Fishing Message Embed](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/General/fishing_embed.PNG?raw=true)  
-
 ## Rare Spawn Notifications:  
 PokeHelper will ping you and send out information when you find a rare pokemon.  
-![Image of Rare Info Embed Off](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/General/Rare%20Spawns/Rare_message_no_embed_new_format.PNG?raw=true)  
-  
-`)toggle embeds Off`:  
 
-![Image of Rare Info Embed On]()  
+![Image of Rare Info Embed On](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/General/Rare%20Spawns/Rare_message_embed_new_format.PNG?raw=true)  
+
+## Alerts
+### Quest
+![Image of Quest Alert](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Alerts/quest_alert.PNG?raw=true)
+### Catchbot
+![Image of Catchbot Alert](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Alerts/catchbot_alert.PNG?raw=true)
+### Ball
+![Image of Ball Alert](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Alerts/ball_alert.PNG?raw=true)
+### Market
+![Image of Market Alert](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Alerts/market_alert.PNG?raw=true)
+
+## Server
+
+### Rare Spawns
+
+![Image of Server Rare Spawn](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Server/Simple_rare_spawn.PNG?raw=true)
+
+### Waterstate
+
+![Image of waterstate update](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Server/waterstate_update.PNG?raw=true)
+
+### Market Updates
+
+![Image of Market Update](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Server/pokehelper_market_update.PNG?raw=true)
+
 # Commands
 
 ## General
@@ -56,8 +74,8 @@ displays the last seen flute message with a calculated countdown till golden hou
 Provides a link to invite PokeHelper to a new server.
 - `search` :  
 Allows you to search for a pokemon in the PokeHelper database by `name` or `dex number`.
-- `settings` :  
-aliases: `set`, `setting`  
+- `display` :  
+aliases: `set`, `setting`, `settings`, `disp`  
 Displays settings based on the argument provided.
   - `user` :  
   Command: `)settings user`  
@@ -159,6 +177,7 @@ toggles all individual timers `On` or `Off`.
 - `shop`
 - `swap`
 - `team`
+- `trade`
 
 ### Other Settings
 `toggle` :  
@@ -182,8 +201,8 @@ options: `Anonymous` or `Public`
 If set to `Anonymous` PokeHelper will not display your name or a message jump link in the server's rare spawn channel.
 
 ## Goals
-`phgoal` :  
-aliases: `goal`, `phg`  
+`goal` :  
+aliases: `phgoal`, `phg`  
 **options**  
 - `set` :  
 Usage: `)phg set`  
@@ -214,8 +233,8 @@ Resets your catch stats seen in the `)goal view` display.
 `leave_clan` :  
 Prompts the user to leave their current PokeHelper clan.
 
-`phclan` :  
-aliases: `clan`, `phc`  
+`clan` :  
+aliases: `phclan`, `phc`  
 **options**  
 - `add`
 - `kick`
@@ -226,8 +245,8 @@ aliases: `clan`, `phc`
 - `goal decrease`
 
 ### Server
-`phserver` :  
-aliases: `server`, `phs`  
+`server` :  
+aliases: `phserver`, `phs`  
 **options**  
 - `whitelist` :  
 argument: `@role`  
