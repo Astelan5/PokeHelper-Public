@@ -62,6 +62,16 @@ PokeHelper will ping you and send out information when you find a rare pokemon.
 
 ![Image of Market Update](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Server/pokehelper_market_update.PNG?raw=true)
 
+## Goals
+
+### Goal and stats display
+
+![Image of Goal View](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Goals/goal_view.PNG?raw=true)
+
+### Goal Reached Ping
+
+![Image of goal ping](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Goals/goal_ping.PNG?raw=true)
+
 # Commands
 
 ## General
