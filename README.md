@@ -44,6 +44,31 @@ PokeHelper will ping you and send out information when you find a rare pokemon.
 `)toggle embeds On`:  
 
 ![Image of Rare Info Embed On](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/General/Rare%20Spawns/Rare_message_embed_new_format.PNG?raw=true)  
+
+## Alerts
+### Quest
+![Image of Quest Alert](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Alerts/quest_alert.PNG?raw=true)
+### Catchbot
+![Image of Catchbot Alert](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Alerts/catchbot_alert.PNG?raw=true)
+### Ball
+![Image of Ball Alert](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Alerts/ball_alert.PNG?raw=true)
+### Market
+![Image of Market Alert](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Alerts/market_alert.PNG?raw=true)
+
+## Server
+
+### Rare Spawns
+
+![Image of Server Rare Spawn](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Server/Simple_rare_spawn.PNG?raw=true)
+
+### Waterstate
+
+![Image of waterstate update](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Server/waterstate_update.PNG?raw=true)
+
+### Market Updates
+
+![Image of Market Update](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Server/pokehelper_market_update.PNG?raw=true)
+
 # Commands
 
 ## General
