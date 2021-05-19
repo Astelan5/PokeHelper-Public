@@ -91,6 +91,8 @@ Running this command begins a swap tracking session which will have the label `<
   if you provide the two optional arguments after the two required ones PokeHelper will calculate and display your current swap multiplier as you swap. Alternatively if you open  the `;swap` page PokeHelper will automatically grab the two optional arguments and you will not need to enter them.  
   
   The two optional arguments must be used together. `<current-multiplier>` is your current multiplier from the `;swap` screen in `%` form. (if your Multiplier says `1.00x` enter `0`, if it says `+1%` enter `1`). `<swaps-today>` is the number in the Your swaps today row in the `;swap`
+### Waterstate
+
 - `waterstate` :  
 Displays the last seen waterstate.
 
