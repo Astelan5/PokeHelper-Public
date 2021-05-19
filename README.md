@@ -240,11 +240,11 @@ If set to `Anonymous` PokeHelper will not display your name or a message jump li
 
 ## Clan/Server
 
-### Clan
 
+### Leave Clan
 `leave_clan` :  
 Prompts the user to leave their current PokeHelper clan.
-
+### Clan
 `clan` :  
 aliases: `phclan`, `phc`  
 **options**  
@@ -300,7 +300,9 @@ If `Off` PokeHelper will display the full version of rare spawns.
 ![Image of Full Rare Spawn](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Server/Full_rare_spawn.PNG?raw=true)
 
 ## PokeHelper
+### Donate
 - `donate` :  
 Provides a link to donate to the creator.
+### Invite
 - `invite` :  
 Provides a link to invite PokeHelper to a new server.
