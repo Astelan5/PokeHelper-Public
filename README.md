@@ -94,7 +94,7 @@ Running this command begins a swap tracking session which will have the label `<
 ### Waterstate
 
 - `waterstate` :  
-Displays the last seen waterstate.
+Displays the last seen waterstate along with info related to that state.
 
 ### Alerts
 Use `)alerts` to activate this command. This command requires one of the options to be used.
@@ -163,16 +163,15 @@ toggles all individual timers `On` or `Off`.
 - `trade`  
 ### Goals
 `goal` :  
+Displays your progress towards your goal and your catch/encounter stats.  
+![Image of Goal View](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Goals/goal_view.PNG?raw=true)  
 aliases: `phgoal`, `phg`  
 **options**  
 - `set` :  
 Usage: `)phg set`  
 argument: `<number>`  
 Sets your personal catch goal to `<number>`. Does not reset your goal pinged status.
-- `view` : 
-Displays your progress towards your goal and your catch/encounter stats.  
-![Image of Goal View](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Goals/goal_view.PNG?raw=true)
-- `view clan` :  
+- `clan` :  
 Displays your progress towards your clan's goal.
 - `reset` :  
 Resets your tracked catches. **Does not effect stats**
@@ -206,7 +205,7 @@ Displays settings based on the argument provided.
   Displays your current alert settings.
   - `clan` :  
   Command: `)settings clan`  
-  aliases: `c`  
+  aliases: `c, server, serv, s`  
   Displays your current clan/server settings.
  ### Initialize
 - `initialize` :  
