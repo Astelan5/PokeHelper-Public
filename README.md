@@ -74,35 +74,15 @@ PokeHelper will ping you and send out information when you find a rare pokemon.
 
 # Commands
 
-## General
-- `donate` :  
-Provides a link to donate to the creator.
+## Features
+
 - `flute` :  
 displays the last seen flute message with a calculated countdown till golden hour.  
 ![Image of flute command](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/flute_command.PNG?raw=true)  
-- `invite` :  
-Provides a link to invite PokeHelper to a new server.
+
 - `search` :  
 Allows you to search for a pokemon in the PokeHelper database by `name` or `dex number`.
-- `display` :  
-aliases: `set`, `setting`, `settings`, `disp`  
-Displays settings based on the argument provided.
-  - `user` :  
-  Command: `)settings user`  
-  aliases: `u`  
-  Displays your current user settings.
-  - `timers`  
-  Command: `)settings timers`  
-  aliases: `ti`, `timer`  
-  Displays your current timer settings.
-  - `alerts` :  
-  Command: `)settings alerts`  
-  aliases: `alert`  
-  Displays your current alert settings.
-  - `clan` :  
-  Command: `)settings clan`  
-  aliases: `c`  
-  Displays your current clan/server settings.
+
 - `swaptracker` :  
 usage: `)swaptracker <session-label> <number-of-swap-to-track>`  
 optional arguments: `<current-swap-multiplier>` `<swaps-today>`
@@ -114,15 +94,6 @@ Running this command begins a swap tracking session which will have the label `<
 - `waterstate` :  
 Displays the last seen waterstate.
 
-## Settings
-- `initialize` :  
-aliases: `init`
-  - `user` :  
-  Initializes your user profile with PokeHelper and displays a quickstart guide.  
-  Usage: `)init user`
-  - `clan` :  
-  Initializes your clan's (server) profile with PokeHelper.  
-  Usage: `)init clan`
 ### Alerts
 Use `)alerts` to activate this command. This command requires one of the options to be used.
 
@@ -187,30 +158,8 @@ toggles all individual timers `On` or `Off`.
 - `shop`
 - `swap`
 - `team`
-- `trade`
-
-### Other Settings
-`toggle` :  
-aliases: `tog`  
-**options:**  
-- `embeds` :  
-With embeds `On`:  
-![Image of Embeds On](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/General/Rare%20Spawns/Rare_message_simple_embed.PNG?raw=true)  
-With embeds `Off`:  
-![Image of Embeds Off](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/General/Rare%20Spawns/rare_message_embed_off.PNG?raw=true)
-- `embeds fish`
-- `goal ping`
-- `goal ping clan`
-- `rare ping`
-- `are ping spam`
-- `rare message` :  
-options: `On` or `Off`  
-Setting this to `Off` disables the message that shows market values PokeHelper sends in your channel when you find a rare spawn.
-- `rare spawn` :  
-options: `Anonymous` or `Public`  
-If set to `Anonymous` PokeHelper will not display your name or a message jump link in the server's rare spawn channel.
-
-## Goals
+- `trade`  
+  
 `goal` :  
 aliases: `phgoal`, `phg`  
 **options**  
@@ -235,6 +184,55 @@ argument: `<number>`
 Decreases your current goal by `<number>`. Resets your goal pinged status.
 - `reset stats` :  
 Resets your catch stats seen in the `)goal view` display.
+
+## Settings
+- `display` :  
+aliases: `set`, `setting`, `settings`, `disp`  
+Displays settings based on the argument provided.
+  - `user` :  
+  Command: `)settings user`  
+  aliases: `u`  
+  Displays your current user settings.
+  - `timers`  
+  Command: `)settings timers`  
+  aliases: `ti`, `timer`  
+  Displays your current timer settings.
+  - `alerts` :  
+  Command: `)settings alerts`  
+  aliases: `alert`  
+  Displays your current alert settings.
+  - `clan` :  
+  Command: `)settings clan`  
+  aliases: `c`  
+  Displays your current clan/server settings.
+- `initialize` :  
+aliases: `init`
+  - `user` :  
+  Initializes your user profile with PokeHelper and displays a quickstart guide.  
+  Usage: `)init user`
+  - `clan` :  
+  Initializes your clan's (server) profile with PokeHelper.  
+  Usage: `)init clan`
+
+`toggle` :  
+aliases: `tog`  
+**options:**  
+- `embeds` :  
+With embeds `On`:  
+![Image of Embeds On](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/General/Rare%20Spawns/Rare_message_simple_embed.PNG?raw=true)  
+With embeds `Off`:  
+![Image of Embeds Off](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/General/Rare%20Spawns/rare_message_embed_off.PNG?raw=true)
+- `embeds fish`
+- `goal ping`
+- `goal ping clan`
+- `rare ping`
+- `are ping spam`
+- `rare message` :  
+options: `On` or `Off`  
+Setting this to `Off` disables the message that shows market values PokeHelper sends in your channel when you find a rare spawn.
+- `rare spawn` :  
+options: `Anonymous` or `Public`  
+If set to `Anonymous` PokeHelper will not display your name or a message jump link in the server's rare spawn channel.
 
 ## Clan/Server
 
@@ -296,3 +294,9 @@ If `On` PokeHelper will display the simple version of rare spawns.
 ![Image of Simple Rare Spawn](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Server/Simple_rare_spawn.PNG?raw=true)  
 If `Off` PokeHelper will display the full version of rare spawns.  
 ![Image of Full Rare Spawn](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Server/Full_rare_spawn.PNG?raw=true)
+
+## PokeHelper
+- `donate` :  
+Provides a link to donate to the creator.
+- `invite` :  
+Provides a link to invite PokeHelper to a new server.
