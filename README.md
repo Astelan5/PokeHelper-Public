@@ -75,14 +75,14 @@ PokeHelper will ping you and send out information when you find a rare pokemon.
 # Commands
 
 ## Features
-
+### Flute
 - `flute` :  
 displays the last seen flute message with a calculated countdown till golden hour.  
 ![Image of flute command](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/flute_command.PNG?raw=true)  
-
+### Search
 - `search` :  
 Allows you to search for a pokemon in the PokeHelper database by `name` or `dex number`.
-
+### Swaptracker
 - `swaptracker` :  
 usage: `)swaptracker <session-label> <number-of-swap-to-track>`  
 optional arguments: `<current-swap-multiplier>` `<swaps-today>`
