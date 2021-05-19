@@ -159,7 +159,7 @@ toggles all individual timers `On` or `Off`.
 - `swap`
 - `team`
 - `trade`  
-  
+### Goals
 `goal` :  
 aliases: `phgoal`, `phg`  
 **options**  
@@ -186,6 +186,7 @@ Decreases your current goal by `<number>`. Resets your goal pinged status.
 Resets your catch stats seen in the `)goal view` display.
 
 ## Settings
+### Display
 - `display` :  
 aliases: `set`, `setting`, `settings`, `disp`  
 Displays settings based on the argument provided.
@@ -205,6 +206,7 @@ Displays settings based on the argument provided.
   Command: `)settings clan`  
   aliases: `c`  
   Displays your current clan/server settings.
+ ### Initialize
 - `initialize` :  
 aliases: `init`
   - `user` :  
@@ -213,7 +215,7 @@ aliases: `init`
   - `clan` :  
   Initializes your clan's (server) profile with PokeHelper.  
   Usage: `)init clan`
-
+### Toggle
 `toggle` :  
 aliases: `tog`  
 **options:**  
