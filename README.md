@@ -247,13 +247,20 @@ Prompts the user to leave their current PokeHelper clan.
 `clan` :  
 aliases: `phclan`, `phc`  
 **options**  
-- `add`
-- `kick`
+- `add` :  
+argument: `<@User>`  
+Adds this user to your clan in PokeHelper for goal tracking.  
+- `kick` :  
+argument: `<@User>`  
+Removes this user from your clan in PokeHelper.  
 - `goal set`
 - `goal view`
 - `goal reset`
 - `goal extend`
 - `goal decrease`
+- `goal notify` :  
+argument: `<#channel>`  
+When a clan member reaches the clan goal it will post in this channel.
 
 ### Server
 `server` :  
