@@ -255,7 +255,7 @@ argument: `<@User>`
 Removes this user from your clan in PokeHelper.  
 - `kickbyname` :  
 - argument: `<user name>`  
-Removes this user from your clan in PokeHelper. The name must match their name in their full (Name#1234) discord user name.  
+Removes this user from your clan in PokeHelper. The name must match their name in their full (Name#1234) discord user name without the number (#1234).  
 - `goal set`
 - `goal view`
 - `goal reset`
