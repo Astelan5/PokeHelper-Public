@@ -72,6 +72,19 @@ PokeHelper will ping you and send out information when you find a rare pokemon.
 
 ![Image of goal ping](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Goals/goal_ping.PNG?raw=true)
 
+### Clan Goals
+Setup clan goals and track your members progress. You can also setup a notification channel where updates will be posted.  
+![Image of Clan Goal View](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Goals/Clan_goal_tracking.PNG?raw=true)
+
+## Verify  
+Setup a verification channel to validate incoming users.
+### Verify Message
+![Image of Grant Role](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Server/pokehelper_verify_grant.PNG?raw=true)  
+### Rejection Message
+![Image of Reject Role](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Server/pokehelper_verify_reject.PNG?raw=true)
+### Channel Cleanup
+![Image of Verify Cleanup](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Server/pokehelper_verify_cleanup.PNG?raw=true)
+
 # Commands
 
 ## Features
