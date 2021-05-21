@@ -54,45 +54,35 @@ PokeHelper will ping you and send out information when you find a rare pokemon.
 
 ![Image of Server Rare Spawn](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Server/Simple_rare_spawn.PNG?raw=true)
 
-### Waterstate
+### Waterstate updates and Golden Hour Pings
 
-![Image of waterstate update](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Server/waterstate_update.PNG?raw=true)
+![Image of waterstate update](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Server/waterstate_countdown_golden_ping.PNG?raw=true)
 
 ### Market Updates
 
 ![Image of Market Update](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Server/pokehelper_market_update.PNG?raw=true)
 
+## Goals
+
+### Goal and stats display
+
+![Image of Goal View](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Goals/goal_view.PNG?raw=true)
+
+### Goal Reached Ping
+
+![Image of goal ping](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Goals/goal_ping.PNG?raw=true)
+
 # Commands
 
-## General
-- `donate` :  
-Provides a link to donate to the creator.
+## Features
+### Flute
 - `flute` :  
 displays the last seen flute message with a calculated countdown till golden hour.  
 ![Image of flute command](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/flute_command.PNG?raw=true)  
-- `invite` :  
-Provides a link to invite PokeHelper to a new server.
+### Search
 - `search` :  
 Allows you to search for a pokemon in the PokeHelper database by `name` or `dex number`.
-- `display` :  
-aliases: `set`, `setting`, `settings`, `disp`  
-Displays settings based on the argument provided.
-  - `user` :  
-  Command: `)settings user`  
-  aliases: `u`  
-  Displays your current user settings.
-  - `timers`  
-  Command: `)settings timers`  
-  aliases: `ti`, `timer`  
-  Displays your current timer settings.
-  - `alerts` :  
-  Command: `)settings alerts`  
-  aliases: `alert`  
-  Displays your current alert settings.
-  - `clan` :  
-  Command: `)settings clan`  
-  aliases: `c`  
-  Displays your current clan/server settings.
+### Swaptracker
 - `swaptracker` :  
 usage: `)swaptracker <session-label> <number-of-swap-to-track>`  
 optional arguments: `<current-swap-multiplier>` `<swaps-today>`
@@ -101,18 +91,11 @@ Running this command begins a swap tracking session which will have the label `<
   if you provide the two optional arguments after the two required ones PokeHelper will calculate and display your current swap multiplier as you swap. Alternatively if you open  the `;swap` page PokeHelper will automatically grab the two optional arguments and you will not need to enter them.  
   
   The two optional arguments must be used together. `<current-multiplier>` is your current multiplier from the `;swap` screen in `%` form. (if your Multiplier says `1.00x` enter `0`, if it says `+1%` enter `1`). `<swaps-today>` is the number in the Your swaps today row in the `;swap`
-- `waterstate` :  
-Displays the last seen waterstate.
+### Waterstate
 
-## Settings
-- `initialize` :  
-aliases: `init`
-  - `user` :  
-  Initializes your user profile with PokeHelper and displays a quickstart guide.  
-  Usage: `)init user`
-  - `clan` :  
-  Initializes your clan's (server) profile with PokeHelper.  
-  Usage: `)init clan`
+- `waterstate` :  
+Displays the last seen waterstate along with info related to that state.
+
 ### Alerts
 Use `)alerts` to activate this command. This command requires one of the options to be used.
 
@@ -177,9 +160,63 @@ toggles all individual timers `On` or `Off`.
 - `shop`
 - `swap`
 - `team`
-- `trade`
+- `trade`  
+### Goals
+`goal` :  
+Displays your progress towards your goal and your catch/encounter stats.  
+![Image of Goal View](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Goals/goal_view.PNG?raw=true)  
+aliases: `phgoal`, `phg`  
+**options**  
+- `set` :  
+Usage: `)phg set`  
+argument: `<number>`  
+Sets your personal catch goal to `<number>`. Does not reset your goal pinged status.
+- `clan` :  
+Displays your progress towards your clan's goal.
+- `reset` :  
+Resets your tracked catches. **Does not effect stats**
+- `extend` :  
+Usage: `)phg extend`  
+argument: `<number>`  
+Increases your current goal by `<number>`. Resets your goal pinged status.
+- `decrease` :  
+Usage: `)phg decrease`  
+argument: `<number>`  
+Decreases your current goal by `<number>`. Resets your goal pinged status.
+- `reset stats` :  
+Resets your catch stats seen in the `)goal view` display.
 
-### Other Settings
+## Settings
+### Display
+- `display` :  
+aliases: `set`, `setting`, `settings`, `disp`  
+Displays settings based on the argument provided.
+  - `user` :  
+  Command: `)settings user`  
+  aliases: `u`  
+  Displays your current user settings.
+  - `timers`  
+  Command: `)settings timers`  
+  aliases: `ti`, `timer`  
+  Displays your current timer settings.
+  - `alerts` :  
+  Command: `)settings alerts`  
+  aliases: `alert`  
+  Displays your current alert settings.
+  - `clan` :  
+  Command: `)settings clan`  
+  aliases: `c, server, serv, s`  
+  Displays your current clan/server settings.
+ ### Initialize
+- `initialize` :  
+aliases: `init`
+  - `user` :  
+  Initializes your user profile with PokeHelper and displays a quickstart guide.  
+  Usage: `)init user`
+  - `clan` :  
+  Initializes your clan's (server) profile with PokeHelper.  
+  Usage: `)init clan`
+### Toggle
 `toggle` :  
 aliases: `tog`  
 **options:**  
@@ -200,49 +237,33 @@ Setting this to `Off` disables the message that shows market values PokeHelper s
 options: `Anonymous` or `Public`  
 If set to `Anonymous` PokeHelper will not display your name or a message jump link in the server's rare spawn channel.
 
-## Goals
-`goal` :  
-aliases: `phgoal`, `phg`  
-**options**  
-- `set` :  
-Usage: `)phg set`  
-argument: `<number>`  
-Sets your personal catch goal to `<number>`. Does not reset your goal pinged status.
-- `view` : 
-Displays your progress towards your goal and your catch/encounter stats.  
-![Image of Goal View](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Goals/goal_view.PNG?raw=true)
-- `view clan` :  
-Displays your progress towards your clan's goal.
-- `reset` :  
-Resets your tracked catches. **Does not effect stats**
-- `extend` :  
-Usage: `)phg extend`  
-argument: `<number>`  
-Increases your current goal by `<number>`. Resets your goal pinged status.
-- `decrease` :  
-Usage: `)phg decrease`  
-argument: `<number>`  
-Decreases your current goal by `<number>`. Resets your goal pinged status.
-- `reset stats` :  
-Resets your catch stats seen in the `)goal view` display.
-
 ## Clan/Server
 
-### Clan
 
+### Leave Clan
 `leave_clan` :  
 Prompts the user to leave their current PokeHelper clan.
-
+### Clan
 `clan` :  
 aliases: `phclan`, `phc`  
 **options**  
-- `add`
-- `kick`
+- `add` :  
+argument: `<@User>`  
+Adds this user to your clan in PokeHelper for goal tracking.  
+- `kick` :  
+argument: `<@User>`  
+Removes this user from your clan in PokeHelper.  
+- `kickbyname` :  
+- argument: `<user name>`  
+Removes this user from your clan in PokeHelper. The name must match their name in their full (Name#1234) discord user name without the number (#1234).  
 - `goal set`
 - `goal view`
 - `goal reset`
 - `goal extend`
 - `goal decrease`
+- `goal notify` :  
+argument: `<#channel>`  
+When a clan member reaches the clan goal it will post in this channel.
 
 ### Server
 `server` :  
@@ -286,3 +307,11 @@ If `On` PokeHelper will display the simple version of rare spawns.
 ![Image of Simple Rare Spawn](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Server/Simple_rare_spawn.PNG?raw=true)  
 If `Off` PokeHelper will display the full version of rare spawns.  
 ![Image of Full Rare Spawn](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Server/Full_rare_spawn.PNG?raw=true)
+
+## PokeHelper
+### Donate
+- `donate` :  
+Provides a link to donate to the creator.
+### Invite
+- `invite` :  
+Provides a link to invite PokeHelper to a new server.
