@@ -180,6 +180,9 @@ Displays your progress towards your goal and your catch/encounter stats.
 ![Image of Goal View](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Goals/goal_view.PNG?raw=true)  
 aliases: `phgoal`, `phg`  
 **options**  
+- `stats` :  
+Displays you current catch rate statistics.  
+![Image of Goal Stats](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Goals/goal_stats.PNG?raw=true)
 - `set` :  
 Usage: `)phg set`  
 argument: `<number>`  
