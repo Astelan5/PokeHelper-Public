@@ -313,7 +313,7 @@ argument : `#channel`
 PokeHelper will post waterstate updates in this channel when it detects the waterstate has changed.  
 **Input <channel> as disable to turn this off.**  
 ![Image of Waterstate update](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Server/waterstate_update.PNG?raw=true)
-- `verify channel`  
+- `verify channel` [Exclusive]  
 - `rare channel` :  
 argument : `#channel`  
 Sets the given channel as the rare spawn channel where PokeHelper will post rare pokemon found in the server.
