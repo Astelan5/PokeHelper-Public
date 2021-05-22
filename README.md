@@ -77,7 +77,7 @@ Setup clan goals and track your members progress. You can also setup a notificat
 ![Image of Clan Goal View](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Goals/Clan_goal_tracking.PNG?raw=true)
 
 ## Verify  
-Setup a verification channel to validate incoming users.
+Setup a verification channel to validate incoming users. [Exclusive]
 ### Verify Message
 ![Image of Grant Role](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Server/pokehelper_verify_grant.PNG?raw=true)  
 ### Rejection Message
