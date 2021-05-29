@@ -242,10 +242,11 @@ With embeds `On`:
 With embeds `Off`:  
 ![Image of Embeds Off](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/General/Rare%20Spawns/rare_message_embed_off.PNG?raw=true)
 - `embeds fish`
-- `goal ping`
+- `goal ping`  
+- `battlehelper`
 - `goal ping clan`
 - `rare ping`
-- `are ping spam`
+- `rare ping spam`
 - `rare message` :  
 options: `On` or `Off`  
 Setting this to `Off` disables the message that shows market values PokeHelper sends in your channel when you find a rare spawn.
