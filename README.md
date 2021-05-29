@@ -243,7 +243,7 @@ With embeds `Off`:
 ![Image of Embeds Off](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/General/Rare%20Spawns/rare_message_embed_off.PNG?raw=true)
 - `embeds fish`
 - `goal ping`  
-- `battlehelper`
+- `battlehelper` Still in development.
 - `goal ping clan`
 - `rare ping`
 - `rare ping spam`
