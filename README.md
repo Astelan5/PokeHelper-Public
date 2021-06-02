@@ -324,7 +324,8 @@ If `On` PokeHelper will display the simple version of rare spawns.
 ![Image of Simple Rare Spawn](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Server/Simple_rare_spawn.PNG?raw=true)  
 If `Off` PokeHelper will display the full version of rare spawns.  
 ![Image of Full Rare Spawn](https://github.com/Astelan5/PokeHelper-Public/blob/main/Pictures/Server/Full_rare_spawn.PNG?raw=true)
-
+- `market snipe` :  
+- `market snipe rarity` :  
 ## PokeHelper
 ### Donate
 - `donate` :  
